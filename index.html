@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GA USA Construction</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #142433;
+      color: white;
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+    }
+
+    .hero {
+      min-height: 520px;
+      background: linear-gradient(
+        rgba(10,25,40,.75),
+        rgba(10,25,40,.75)
+      ),
+      url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 60px 8%;
+    }
+
+    .hero-content {
+      max-width: 700px;
+    }
+
+    .hero h1 {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 21px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #d3a44a;
+      color: #142433;
+      padding: 15px 28px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+      color: #142433;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .service {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,.08);
+    }
+
+    .service h3 {
+      margin-bottom: 12px;
+      color: #142433;
+    }
+
+    .about {
+      background: #e9edf0;
+    }
+
+    .about p {
+      max-width: 850px;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #142433;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    @media (max-width: 700px) {
+      nav {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">GA USA CONSTRUCTION</div>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Construction, Remodeling & Property Maintenance</h1>
+
+    <p>
+      Professional solutions for homes, offices and commercial
+      properties in South Florida.
+    </p>
+
+    <a class="button" href="#contact">REQUEST A FREE ESTIMATE</a>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+
+  <div class="services">
+
+    <div class="service">
+      <h3>Home Remodeling</h3>
+      <p>Kitchens, bathrooms, interiors and residential improvements.</p>
+    </div>
+
+    <div class="service">
+      <h3>Commercial Remodeling</h3>
+      <p>Renovations and improvements for offices and commercial spaces.</p>
+    </div>
+
+    <div class="service">
+      <h3>Property Maintenance</h3>
+      <p>Maintenance and repair solutions for residential and commercial properties.</p>
+    </div>
+
+    <div class="service">
+      <h3>Project Coordination</h3>
+      <p>Professional coordination from planning through project completion.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="about" id="about">
+
+  <h2>About GA USA Construction</h2>
+
+  <p>
+    GA USA Construction provides remodeling, construction and property
+    maintenance services in South Florida. Our team brings more than
+    17 years of professional experience in architectural design,
+    construction and remodeling projects.
+  </p>
+
+</section>
+
+<section class="contact" id="contact">
+
+  <h2>Let's Talk About Your Project</h2>
+
+  <p>
+    Contact us to schedule a personal consultation and receive a free estimate.
+  </p>
+
+  <br>
+
+  <a class="button" href="mailto:contact@gausaconstruction.com">
+    CONTACT US
+  </a>
+
+</section>
+
+<footer>
+  © 2026 GA USA Construction | South Florida
+</footer>
+
+</body>
+</html>
